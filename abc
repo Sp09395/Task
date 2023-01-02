@@ -1,4 +1,4 @@
-[200~function apartmentHunting(blocks, reqs) {
+function apartmentHunting(blocks, reqs) {
     const distanceBetweenTwoBlocks = (a, b) => Math.abs(a - b);
   
     const getMinDistances = (blocks, req) => {
